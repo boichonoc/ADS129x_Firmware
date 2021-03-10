@@ -1,16 +1,16 @@
-"D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c"
+"D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\EWARM/../Inc
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Inc
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\EWARM/../Drivers/STM32L1xx_HAL_Driver/Inc
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Drivers/STM32L1xx_HAL_Driver/Inc
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\EWARM/../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\EWARM/../Drivers/CMSIS/Device/ST/STM32L1xx/Include
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Drivers/CMSIS/Device/ST/STM32L1xx/Include
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\EWARM/../Drivers/CMSIS/Include
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Drivers/CMSIS/Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
 -I
@@ -18,15 +18,15 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Inc
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Inc
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Inc
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Inc
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\STM32L1xx_HAL_Driver\Inc\Legacy
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Drivers\CMSIS\Device\ST\STM32L1xx\Include
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\CMSIS\Device\ST\STM32L1xx\Include
 -I
-D:\Embedded_Project\IAR_Project\ADS129x_3V3_STM32L151\ADS129x_3V3_STM32L151\Drivers\CMSIS\Include
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1

@@ -1,43 +1,43 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.70.1.11437/W32 for ARM                05/Sep/2019  16:35:48
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                26/Feb/2021  23:24:14
 # Copyright 2007-2016 IAR Systems AB.
 #
 #    Output file  =  
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Exe\ADS129x_3V3_STM32L151.out
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Exe\ADS129x_3V3_STM32L151.out
 #    Map file     =  
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\List\ADS129x_3V3_STM32L151.map
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\List\ADS129x_3V3_STM32L151.map
 #    Command line =  
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ADS1294.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\main.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\startup_stm32l151xc.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_cortex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dac.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dac_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dma.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash_ramfunc.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_gpio.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_msp.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_pwr.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_pwr_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_rcc.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_rcc_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_spi.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_spi_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_tim.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_tim_ex.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_uart.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_it.o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\system_stm32l1xx.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ADS1294.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\main.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\startup_stm32l151xc.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_cortex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dac.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dac_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dma.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_flash_ramfunc.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_gpio.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_msp.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_pwr.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_pwr_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_rcc.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_rcc_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_spi.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_spi_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_tim.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_tim_ex.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_uart.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_it.o
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\system_stm32l1xx.o
 #        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Exe\ADS129x_3V3_STM32L151.out
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Exe\ADS129x_3V3_STM32L151.out
 #        --map
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\List\ADS129x_3V3_STM32L151.map
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\List\ADS129x_3V3_STM32L151.map
 #        --config
-#        D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM/stm32l151xc_flash.icf
+#        D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/stm32l151xc_flash.icf
 #        --semihosting --entry __iar_program_start --vfe
 #
 ###############################################################################
@@ -195,7 +195,7 @@ Copy (__iar_copy_init3)
 
     Module                  ro code  ro data  rw data
     ------                  -------  -------  -------
-D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj: [1]
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj: [1]
     ADS1294.o                   736                 2
     main.o                      560               172
     startup_stm32l151xc.o       512
@@ -347,7 +347,7 @@ main                    0x080011a1   0xac  Code  Gb  main.o [1]
 uwTick                  0x200004b4    0x4  Data  Gb  stm32l1xx_hal.o [1]
 
 
-[1] = D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj
+[1] = D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj
 [2] = command line
 [3] = dl7M_tlf.a
 [4] = rt7M_tl.a

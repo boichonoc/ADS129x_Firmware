@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.general.xcl" --backend -f "D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.general.xcl" --backend -f "D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.general.xcl" "--debug_file=%~1" --backend -f "D:\Диплом\ADS129x\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.general.xcl" "--debug_file=%~1" --backend -f "D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\settings\ADS129x_3V3_STM32L151.ADS129x_3V3_STM32L151.driver.xcl" 
 
 @echo off 
 :end

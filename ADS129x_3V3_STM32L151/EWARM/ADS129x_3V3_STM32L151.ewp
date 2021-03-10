@@ -1059,6 +1059,9 @@
   <file>
     <name>$PROJ_DIR$\..\Inc\ADS1294.h</name>
   </file>
+  <file>
+    <name>$PROJ_DIR$\..\Inc\ADS129x.h</name>
+  </file>
 </project>
 
 

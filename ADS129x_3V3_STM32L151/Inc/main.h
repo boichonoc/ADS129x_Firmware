@@ -58,7 +58,8 @@
 #define RESET_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define public 
+#define private static
 /* USER CODE END Private defines */
 
 void _Error_Handler(char *, int);

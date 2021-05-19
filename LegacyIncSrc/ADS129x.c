@@ -1,6 +1,6 @@
-//#include "ADS129x.h"
 #include "ADS1294.h"
 #include "main.h"
+
 //------------------ Local functions prototypes --------------------------------//
 static void PowerUP(SPI_HandleTypeDef * hspi1); 
 static void PowerDOWN();
@@ -74,15 +74,15 @@ static void PowerUP (SPI_HandleTypeDef * hspi1){
   HAL_GPIO_WritePin(PWDN_GPIO_Port, PWDN_Pin,  GPIO_PIN_SET);
   HAL_GPIO_WritePin(RESET_GPIO_Port, RESET_Pin, GPIO_PIN_SET);
   
-  SendComand(hspi1, RESET_ADS1294);
+  SendComand(hspi1, RESET);
   HAL_Delay(110);
   
   HAL_GPIO_WritePin(PWDN_GPIO_Port, PWDN_Pin,  GPIO_PIN_RESET);
-  SendComand(hspi1, RESET_ADS1294);
+  SendComand(hspi1, RESET);
   HAL_GPIO_WritePin(RESET_GPIO_Port, RESET_Pin, GPIO_PIN_RESET);
   HAL_Delay(1);
   HAL_GPIO_WritePin(PWDN_GPIO_Port, PWDN_Pin,  GPIO_PIN_SET); 
-  SendComand(hspi1, RESET_ADS1294);
+  SendComand(hspi1, RESET);
   HAL_GPIO_WritePin(RESET_GPIO_Port, RESET_Pin, GPIO_PIN_SET);
   HAL_Delay(15);
     
@@ -97,7 +97,7 @@ static void PowerDOWN () {
   HAL_GPIO_WritePin(RESET_GPIO_Port, RESET_Pin, GPIO_PIN_RESET);
 }
 
-static uint8_t RREG(SPI_HandleTypeDef * hspi1,uint8_t  address) 
+static uint8_t RREG(SPI_HandleTypeDef * hspi1, uint8_t  address) 
 {
   uint8_t result = 0; 
   uint8_t opcode1 = R_REG | address ;

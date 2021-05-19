@@ -38,7 +38,7 @@
         </option>
         <option>
           <name>Input description</name>
-          <state></state>
+          <state>Full formatting.</state>
         </option>
         <option>
           <name>Output variant</name>
@@ -47,7 +47,7 @@
         </option>
         <option>
           <name>Output description</name>
-          <state></state>
+          <state>Full formatting.</state>
         </option>
         <option>
           <name>GOutputBinary</name>
@@ -320,6 +320,8 @@
           <state>$PROJ_DIR$/../Drivers/STM32L1xx_HAL_Driver/Inc/Legacy</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Device/ST/STM32L1xx/Include</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
+          <state>$PROJ_DIR$\..\Src\ADS129x</state>
+          <state>$PROJ_DIR$\..\Inc\ADS129x</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -611,7 +613,7 @@
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>Project.srec</state>
+          <state>ADS129x_3V3_STM32L151.srec</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -976,6 +978,24 @@
     </group>
     <group>
       <name>User</name>
+      <group>
+        <name>Presenter</name>
+        <file>
+          <name>$PROJ_DIR$\..\Src\DevicePresenter.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\DevicePresenter.h</name>
+        </file>
+      </group>
+      <group>
+        <name>UInterface</name>
+        <file>
+          <name>$PROJ_DIR$\..\Src\StatusLed.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\StatusLed.h</name>
+        </file>
+      </group>
       <file>
         <name>$PROJ_DIR$\..\Src\main.c</name>
       </file>
@@ -989,6 +1009,42 @@
   </group>
   <group>
     <name>Drivers</name>
+    <group>
+      <name>ADS129x</name>
+      <group>
+        <name>_c</name>
+        <file>
+          <name>$PROJ_DIR$\..\Src\ADS129x\ADS129xDevices.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Src\ADS129x\ICommand.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Src\ADS129x\IPowerManager.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Src\ADS129x\IReadData.c</name>
+        </file>
+      </group>
+      <group>
+        <name>_h</name>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\ADS129x\ADS129x_Devices.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\ADS129x\ICommand.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\ADS129x\IPowerManager.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\ADS129x\IReadData.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Inc\ADS129x\Utils.h</name>
+        </file>
+      </group>
+    </group>
     <group>
       <name>CMSIS</name>
       <file>
@@ -1053,15 +1109,6 @@
       </file>
     </group>
   </group>
-  <file>
-    <name>$PROJ_DIR$\..\Src\ADS1294.c</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\..\Inc\ADS1294.h</name>
-  </file>
-  <file>
-    <name>$PROJ_DIR$\..\Inc\ADS129x.h</name>
-  </file>
 </project>
 
 

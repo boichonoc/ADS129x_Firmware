@@ -1,6 +1,11 @@
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ADS129x_3V3_STM32L151.pbd.linf
-D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ADS1294.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ADS129xDevices.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\DevicePresenter.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\ICommand.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\IPowerManager.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\IReadData.pbi
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\main.pbi
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\StatusLed.pbi
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal.pbi
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_cortex.pbi
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\ADS129x_3V3_STM32L151\Obj\stm32l1xx_hal_dac.pbi

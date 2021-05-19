@@ -40,7 +40,10 @@
 #include "stm32l1xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-#include "ADS1294.h"
+//#include "ADS1294.h"
+//#include "ADS129x_Devices.h"
+#include "DevicePresenter.h"
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -52,7 +55,8 @@ UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+StatusLed Led = { .port = LED_GPIO_Port, .pin = LED_Pin };
+bool DataReady = false;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -103,7 +107,10 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   HAL_NVIC_DisableIRQ(EXTI1_IRQn);
-  Init_ADS1294(&hspi1,&hdac);
+  //Init_ADS1294(&hspi1,&hdac);
+  DevicePresenter* device = _DevicePresenter(&Led);
+  device->Initialize();
+  
   HAL_NVIC_EnableIRQ(EXTI1_IRQn);
   
   /* USER CODE END 2 */
@@ -112,6 +119,10 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    if(DataReady == true)
+    {
+      device->ReadData(&hspi1, &huart1);
+    }
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
@@ -301,15 +312,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
-void EXTI1_IRQHandler(void)
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-if(EXTI->PR & (1 << 1) ){
-        EXTI->PR = 1 << 1;
-     }  
-     ReadData(&hspi1,&huart1);
+  DataReady = true;
 }
-
 /* USER CODE END 4 */
 
 /**

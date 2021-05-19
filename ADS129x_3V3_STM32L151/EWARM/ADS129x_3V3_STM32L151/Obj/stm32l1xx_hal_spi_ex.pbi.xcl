@@ -12,6 +12,10 @@ D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L15
 -I
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM/../Drivers/CMSIS/Include
 -I
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\..\Src\ADS129x
+-I
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\EWARM\..\Inc\ADS129x
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc
@@ -27,6 +31,10 @@ D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L15
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\CMSIS\Device\ST\STM32L1xx\Include
 -I
 D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Drivers\CMSIS\Include
+-I
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Src\ADS129x
+-I
+D:\_myProjects\STM32_mcu\IAR_Cube_Projects\ADS129x_Firmware\ADS129x_3V3_STM32L151\Inc\ADS129x
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1

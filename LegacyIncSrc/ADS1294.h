@@ -10,7 +10,7 @@
 //SYSTEM COMMANDS  
 #define WAKEUP  0x02 // WAKE UP from standly mode
 #define STANDBY 0x04 // STANDBY - Enter standly mode
-#define RESET_ADS1294   0x06 // RESET the device
+#define RESET   0x06 // RESET the device
 #define START   0x08 // START/RESTART (synchronize) conversions
 #define STOP    0x0A // STOP conversion
 
